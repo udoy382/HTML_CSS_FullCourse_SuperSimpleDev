@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 200vh;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  /* bottom: 100px; */
+  z-index: 100;
+}
+
+.sideBar {
+  background-color: green;
+  color: #fff;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    /* left: 10px; */
+    top: 60px;
+    right: 10px;
+}
+
+.firstDiv {
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+  position: static;
+  margin-top: 60px;
+}
+
+.seconddiv {
+  background-color: lightpink;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}

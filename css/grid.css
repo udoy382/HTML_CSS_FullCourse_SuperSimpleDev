@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+.d1{
+    background-color: brown;
+}
+
+.d2{
+    background-color: chocolate;
+}
+
+.container2{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+}
+
+.container3{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.container4{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
